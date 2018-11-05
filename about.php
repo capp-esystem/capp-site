@@ -1,13 +1,13 @@
 <?php
-include_once('app.php');
-include_once('navbar.php');
- ?>
+include_once 'app.php';
+include_once 'navbar.php';
+?>
 
 <!DOCTYPE html>
 <html>
-  <?php htmlHeader('About CAPP2') ?>
+  <?php htmlHeader('About CAPP2')?>
   <body>
-    <?php navHeader() ?>
+    <?php navHeader('about')?>
     <div class="jumbotron text-center">
       <div class="container">
         <h1>About CAPP2</h1>

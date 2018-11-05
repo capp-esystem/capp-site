@@ -1,13 +1,13 @@
 <?php
-include_once('app.php');
-include_once('navbar.php');
- ?>
+include_once 'app.php';
+include_once 'navbar.php';
+?>
 
 <!DOCTYPE html>
 <html>
-  <?php htmlHeader('Guidance to Tutors of CAPP Co-Assessment of Presentations by Peers') ?>
+  <?php htmlHeader('Guidance to Tutors of CAPP Co-Assessment of Presentations by Peers')?>
   <body>
-    <?php navHeader() ?>
+    <?php navHeader('tutor_guide')?>
     <div class="jumbotron text-center">
       <div class="container">
         <h1>Guidance to Tutors</h1>

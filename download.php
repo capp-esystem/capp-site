@@ -7,7 +7,7 @@ include_once 'navbar.php';
 <html>
 <?php htmlHeader('Download')?>
 <body>
-  <?php navHeader()?>
+  <?php navHeader('download')?>
   <div class="jumbotron text-center">
     <div class="container">
       <h1>Download</h1>
