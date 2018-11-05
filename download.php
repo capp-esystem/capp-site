@@ -1,22 +1,27 @@
 <?php
-include_once('app.php');
-include_once('navbar.php');
+include_once 'app.php';
+include_once 'navbar.php';
 ?>
 
 <!DOCTYPE html>
 <html>
-<?php htmlHeader('Download') ?>
+<?php htmlHeader('Download')?>
 <body>
-  <?php navHeader() ?>
+  <?php navHeader()?>
   <div class="jumbotron text-center">
     <div class="container">
       <h1>Download</h1>
       <div class="text-center mt30">
         <div class="d-inline-block">
-          <a href="https://github.com/capp-esystem/capp" type="button" class="btn btn-info btn-lg">GitHub Repository</a><br/>
+          <a href="https://github.com/capp-esystem/capp/archive/master.zip" type="button" class="btn btn-info btn-lg">Download</a><br/>
+          <small>
+            <cite>
+              <a href="https://github.com/capp-esystem/capp" target="_blank">GitHub</a>
+            </cite>
+          </small>
         </div>
         <div class="d-inline-block">
-          <a href="https://drive.google.com/file/d/1Xms0R7qmCPnTgnUo7t63zJTPqPbUEJ-Q/view?usp=sharing" type="button" class="btn btn-success btn-lg">Virtual Disk Image</a><br/>
+          <a href="https://drive.google.com/file/d/1Xms0R7qmCPnTgnUo7t63zJTPqPbUEJ-Q/view?usp=sharing" type="button" class="btn btn-success btn-lg" target="_blank">Virtual Disk Image</a><br/>
           <small><cite>OVA (1.65GB)</cite></small>
         </div>
       </div>
