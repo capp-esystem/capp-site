@@ -13,11 +13,10 @@ include_once('navbar.php');
       <h1>Download</h1>
       <div class="text-center mt30">
         <div class="d-inline-block">
-          <a href="vdi/server_hdd.7z" type="button" class="btn btn-info btn-lg">Standard Project Files</a><br/>
-          <small><cite>Compressed 7z (~1MB)</cite></small>
+          <a href="https://github.com/capp-esystem/capp" type="button" class="btn btn-info btn-lg">GitHub Repository</a><br/>
         </div>
         <div class="d-inline-block">
-          <a href="vdi/server_hdd.7z" type="button" class="btn btn-success btn-lg">Virtual Disk Image</a><br/>
+          <a href="https://drive.google.com/file/d/1Xms0R7qmCPnTgnUo7t63zJTPqPbUEJ-Q/view?usp=sharing" type="button" class="btn btn-success btn-lg">Virtual Disk Image</a><br/>
           <small><cite>OVA (1.65GB)</cite></small>
         </div>
       </div>
