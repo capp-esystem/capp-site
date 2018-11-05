@@ -1,0 +1,27 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container section:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.sample {
+  margin-top: 2rem;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.container li {
+  margin-top: 0.5rem;
+}
+
+img {
+  margin: 1rem 0;
+}
