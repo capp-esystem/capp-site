@@ -11,10 +11,25 @@ include_once 'navbar.php';
     <div class="jumbotron text-center">
       <div class="container">
         <h1>Guidance to Tutors</h1>
+        <div>
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="quick-jump" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Quick Jump To
+            </a>
+            <div class="dropdown-menu" aria-labelledby="quick-jump">
+              <a class="dropdown-item" href="#txt_concerns">Concerns from Students</a>
+              <a class="dropdown-item" href="#txt_inter">Assessment Criteria for Inter-group Peer Assessment</a>
+              <a class="dropdown-item" href="#txt_score_inter">Scoring Method of the Inter-group Peer Assessment</a>
+              <a class="dropdown-item" href="#txt_intra">Assessment Criteria for Intra-group Self And Peer Assessment</a>
+              <a class="dropdown-item" href="#txt_score_intra">Scoring Method of Intra-group Self and Peer Assessment</a>
+              <a class="dropdown-item" href="#txt_suggest">Suggested Teaching Plan for Using CAPP</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
-      <section>
+      <section id="txt_concerns">
         <div class="page-header">
           <h2>Concerns from Students</h2>
         </div>
@@ -36,7 +51,7 @@ include_once 'navbar.php';
           </ul>
         </p>
       </section>
-      <section>
+      <section id="txt_inter">
         <div class="page-header">
           <h2>Assessment Criteria for Inter-group Peer Assessment</h2>
         </div>
@@ -298,7 +313,7 @@ include_once 'navbar.php';
           </table>
         </div>
       </section>
-      <section>
+      <section id="txt_score_inter">
         <div class="page-header">
           <h2>Scoring Method of the Inter-group Peer Assessment</h2>
         </div>
@@ -315,7 +330,7 @@ include_once 'navbar.php';
             Following the tutor’s defined parameters, such as setting the upper and lower score limits and the penalty to students who do not performed peer assessment, a peer group mark will be calculated by the CAPP2 system automatically.
         </p>
       </section>
-      <section>
+      <section id="txt_intra">
         <div class="page-header">
           <h2>Assessment Criteria for Intra-group Self And Peer Assessment</h2>
         </div>
@@ -598,7 +613,7 @@ include_once 'navbar.php';
           </table>
         </div>
       </section>
-      <section>
+      <section id="txt_score_intra">
         <div class="page-header">
           <h2>Scoring Method of Intra-group Self and Peer Assessment</h2>
         </div>
@@ -615,7 +630,7 @@ include_once 'navbar.php';
         </p>
         <p>Following the tutor’s defined parameters, including smoothening condition and penalty-setting to those students to do not perform self and/or peer assessments, a PA score (to individual student) will be calculated by the CAPP2 system automatically.</p>
       </section>
-      <section>
+      <section id="txt_suggest">
         <div class="page-header">
           <h2>Suggested Teaching Plan for Using CAPP</h2>
         </div>
