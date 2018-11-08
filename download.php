@@ -24,6 +24,10 @@ include_once 'navbar.php';
           <a href="https://drive.google.com/file/d/1Xms0R7qmCPnTgnUo7t63zJTPqPbUEJ-Q/view?usp=sharing" type="button" class="btn btn-success btn-lg" target="_blank">Virtual Disk Image</a><br/>
           <small><cite>OVA (1.65GB)</cite></small>
         </div>
+        <div class="d-inline-block">
+          <a href="https://drive.google.com/open?id=1XrSp1f1hlKGNNNyeXiykuJvmRzw1tX3M" type="button" class="btn btn-warning btn-lg" target="_blank">User Guide</a><br/>
+          <small><cite>PDF (9MB)</cite></small>
+        </div>
       </div>
     </div>
   </div>
